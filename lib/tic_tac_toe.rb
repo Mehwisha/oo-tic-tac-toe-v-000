@@ -22,8 +22,8 @@ def display_board
 def input_to_index(user_input)
   user_input.to_i - 1
 end
-def move
-
+def move(index, player = "X")
+@board[index] = player
 end
 def position_taken?
 
