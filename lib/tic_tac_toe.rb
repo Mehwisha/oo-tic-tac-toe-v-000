@@ -13,7 +13,7 @@ def initialize
 @board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 end
 def display_board
-puts board
+puts @board
 end
 
 
