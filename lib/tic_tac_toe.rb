@@ -14,6 +14,7 @@ def initialize
 end
 def display_board
 @board = board
+puts board
 end
 
 
