@@ -47,6 +47,7 @@ if valid_move?(index)
 else
   turn
 end
+end
 def won?
 
 end
