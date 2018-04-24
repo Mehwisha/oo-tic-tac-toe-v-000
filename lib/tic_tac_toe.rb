@@ -27,10 +27,9 @@ def move(index, player = "X")
 end
 def position_taken?(index)
   @board[index]== "X" || @board[index] == "O"
-
 end
 def valid_move?
-
+!position_taken?(index) && index.between?(0,8)
 end
 def turn_count
 @board.count{|token| token == "X" || token == "O"}
